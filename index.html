@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Concesionaria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🚗 Concesionaria JavaScript</h1>
+
+    <div class="grid">
+      <div id="car-list" class="car-list"></div>
+
+      <div class="side-panel">
+        <div id="car-details" class="car-details">
+          <p>Selecciona un auto para ver detalles</p>
+        </div>
+
+        <form id="add-car-form" class="add-car-form">
+          <h3>Agregar nuevo auto</h3>
+          <input type="text" id="brand" placeholder="Marca" required>
+          <input type="text" id="model" placeholder="Modelo" required>
+          <input type="text" id="color" placeholder="Color" required>
+          <input type="number" id="year" placeholder="Año" required>
+          <button type="submit">Agregar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
